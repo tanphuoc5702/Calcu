@@ -19,17 +19,11 @@ namespace Calculator
 
         private void btnCong_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-            if (txtA.Text != String.Empty )
-=======
-            if (txtA.Text != String.Empty && txtB.Text != String.Empty)
->>>>>>> feature-cal
-            {
-                double a = double.Parse(txtA.Text);
-                double b = double.Parse(txtB.Text);
-                double c = a + b;
-                txtKQ.Text = c.ToString(); 
-            }
+            int a = Int32.Parse(txtA.Text);
+            int b = Int32.Parse(txtB.Text);
+            Calculator1 cal = new Calculator1(a,b);
+            txtKQ.Text = cal.Execute("+").ToString();
+
         }
 
         private void btnTru_Click(object sender, EventArgs e)

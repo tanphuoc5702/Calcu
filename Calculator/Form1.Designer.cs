@@ -42,7 +42,7 @@
             // btnCong
             // 
             this.btnCong.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCong.Location = new System.Drawing.Point(378, 241);
+            this.btnCong.Location = new System.Drawing.Point(288, 241);
             this.btnCong.Name = "btnCong";
             this.btnCong.Size = new System.Drawing.Size(98, 33);
             this.btnCong.TabIndex = 0;
@@ -115,7 +115,7 @@
             // btnTru
             // 
             this.btnTru.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTru.Location = new System.Drawing.Point(219, 241);
+            this.btnTru.Location = new System.Drawing.Point(146, 241);
             this.btnTru.Name = "btnTru";
             this.btnTru.Size = new System.Drawing.Size(98, 33);
             this.btnTru.TabIndex = 0;
